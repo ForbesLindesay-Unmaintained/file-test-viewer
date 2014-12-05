@@ -1,0 +1,26 @@
+{
+  "name": "file-test-viewer",
+  "version": "0.0.0",
+  "description": "An easy to use diff viewer for files",
+  "keywords": [],
+  "dependencies": {
+    "browserify-middleware": "^4.1.0",
+    "escape-html": "^1.0.1",
+    "express": "^4.10.4",
+    "jsdifflib": "^1.1.0",
+    "promise": "^6.0.1",
+    "unescape-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/file-test-viewer.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}

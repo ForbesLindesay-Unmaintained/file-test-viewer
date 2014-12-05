@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+    <style>
+      pre.hljs {
+        background:#f0f0f0;
+      }
+      
+      table.diff {
+        border-collapse:collapse;
+        border:1px solid darkgray;
+        white-space:pre-wrap;
+        font-family: Consolas, 'Liberation Mono', Courier, monospace;
+        font-size:12px;
+        min-width: 100%;
+        border: 1px solid #ccc;
+      }
+      table.diff th {
+        font-weight:normal;
+        border:1px solid #BBC;
+        color:#886;
+        padding:.3em .5em .1em 2em;
+        text-align:right;
+        vertical-align:top;
+        width: 28px;
+        padding: 5px 0;
+        text-align: center;
+        border: 0;
+        border-right: 1px solid #ccc;
+      }
+
+      table.diff thead th.texttitle {
+        text-align:left
+      }
+
+      table.diff td {
+        padding:0px .4em;
+        padding-top:.4em;
+        vertical-align:top;
+      }
+
+      table.diff .empty {
+        background-color:#DDD;
+      }
+
+      table.diff .replace {
+        background-color:#FD8
+      }
+
+      table.diff .skip {
+        background-color:#EFEFEF;
+        border:1px solid #AAA;
+        border-right:1px solid #BBC;
+      }
+
+      table.diff tr.delete {
+        background-color: #ffdddd;
+      }
+
+      table.diff tr.delete th {
+        border-color: #e9aeae;
+      }
+
+      table.diff tr.insert {
+        background-color: #ddffdd;
+      }
+
+      table.diff tr.insert th {
+        border-color: #b4e2b4;
+      }
+
+      table.diff tr:hover {
+        background-color: #F8EEC7;
+      }
+
+      table.diff tr:hover th {
+        border-color: #f0db88;
+      }
+
+      /*
+      table.diff thead {
+        display:none;
+      }
+      */
+
+      table.diff th.author {
+        display:none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container" class="container">
+    </div>
+    <script type="application/json" id="test-case">{{test-case}}</script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script src="/file-test-viewer/client.js"></script>
+  </body>
+</html>
