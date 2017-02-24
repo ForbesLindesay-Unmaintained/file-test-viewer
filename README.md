@@ -1,5 +1,7 @@
 # file-test-viewer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/file-test-viewer.svg)](https://greenkeeper.io/)
+
 An easy to use diff viewer for files
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/file-test-viewer/master.svg)](https://travis-ci.org/ForbesLindesay/file-test-viewer)
