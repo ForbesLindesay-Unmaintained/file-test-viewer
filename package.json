@@ -4,11 +4,11 @@
   "description": "An easy to use diff viewer for files",
   "keywords": [],
   "dependencies": {
-    "browserify-middleware": "^4.1.0",
+    "browserify-middleware": "^7.1.0",
     "escape-html": "^1.0.1",
     "express": "^4.10.4",
     "jsdifflib": "^1.1.0",
-    "promise": "^6.0.1",
+    "promise": "^7.1.1",
     "unescape-html": "^1.0.0"
   },
   "devDependencies": {
